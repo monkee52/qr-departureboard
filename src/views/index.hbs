@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>QR Departures</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        }
+      }
+    </script>
+    <script type="text/javascript">
+    window.__INITIAL_STATE__ = {{{ initialState }}};
+    </script>
+    <script type="module" src="/javascripts/client.js"></script>
+  </head>
+  <body>
+    <div id="container">{{{ vueData }}}</div>
+  </body>
+</html>

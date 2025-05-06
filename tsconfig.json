@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "@tsconfig/recommended/tsconfig.json",
+        // "@vue/tsconfig/tsconfig.json"
+    ],
+    "compilerOptions": {
+        "moduleResolution":"NodeNext",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "target": "esNext",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "module": "NodeNext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "isolatedModules": false,
+        "types": ["node"]
+    }
+}
